@@ -22,7 +22,7 @@ const Accessories = () => {
   return (
     <main>
       <section className="products">
-        <h2>Accessories</h2>
+        <h2>Accessories Section</h2>
         <ul className="acc-category">
           {products.map((product, index) => (
             <li key={index}>
